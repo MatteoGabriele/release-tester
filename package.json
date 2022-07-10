@@ -1,0 +1,34 @@
+{
+  "name": "release-tester",
+  "description": "nothing that you have to download",
+  "version": "0.0.0-development",
+  "author": {
+    "name": "Matteo Gabriele",
+    "email": "m.gabriele.dev@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatteoGabriele/release-tester"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/MatteoGabriele/release-tester/issues"
+  },
+  "homepage": "https://github.com/MatteoGabriele/release-tester#readme",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  }
+}
